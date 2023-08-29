@@ -2,45 +2,21 @@
   "Todos": [
     {
       "title": "Learn HTML",
-      "status": true,
+      "status": false,
       "checked": false,
       "id": 1
     },
     {
-      "title": "Learn CSS",
-      "status": true,
+      "title": "Learn React",
+      "status": false,
       "checked": false,
       "id": 2
     },
     {
-      "title": "Learn JavaScript",
-      "status": true,
+      "title": "Learn CSS",
+      "status": false,
       "checked": false,
       "id": 3
-    },
-    {
-      "title": "Learn React",
-      "status": true,
-      "checked": false,
-      "id": 4
-    },
-    {
-      "title": "Learn Express",
-      "status": true,
-      "checked": false,
-      "id": 5
-    },
-    {
-      "title": "Learn MongoDB",
-      "status": true,
-      "checked": false,
-      "id": 6
-    },
-    {
-      "title": "Learn DSA",
-      "status": true,
-      "checked": false,
-      "id": 7
     }
   ]
 }
