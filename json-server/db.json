@@ -7,6 +7,12 @@
       "id": 1
     },
     {
+      "title": "Learn React",
+      "status": false,
+      "checked": false,
+      "id": 2
+    },
+    {
       "title": "Learn CSS",
       "status": false,
       "checked": false,
@@ -17,6 +23,12 @@
       "status": false,
       "checked": false,
       "id": 4
+    },
+    {
+      "title": "Learn DSA",
+      "status": false,
+      "checked": false,
+      "id": 5
     }
   ]
 }
