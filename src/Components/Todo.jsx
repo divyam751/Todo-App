@@ -31,14 +31,14 @@ const Todo = ({ setStart }) => {
   };
 
   const fetchData = () => {
-    axios.get("https://backend-todo-pi.vercel.app/Todos").then((res) => {
+    axios.get("http://localhost:8080/Todos").then((res) => {
       setData(res.data);
     });
   };
 
   // Toggle Function
   const handleToggle = async (id, status) => {
-    await axios.patch(`https://backend-todo-pi.vercel.app/Todos/${id}`, {
+    await axios.patch(`http://localhost:8080/Todos/${id}`, {
       status: !status,
     });
 
@@ -49,7 +49,7 @@ const Todo = ({ setStart }) => {
   // CheckBox Function for display Delte Button
   const handleCheckbox = (id, checked) => {
     axios
-      .patch(`https://backend-todo-pi.vercel.app/Todos/${id}`, {
+      .patch(`http://localhost:8080/Todos/${id}`, {
         checked: !checked,
       })
       .then(() => {
@@ -59,7 +59,7 @@ const Todo = ({ setStart }) => {
   //   Delete function
   const handleDelete = async (id) => {
     await axios
-      .delete(`https://backend-todo-pi.vercel.app/Todos/${id}`)
+      .delete(`http://localhost:8080/Todos/${id}`)
       .then(() => {
         fetchData();
       });
@@ -67,7 +67,7 @@ const Todo = ({ setStart }) => {
 
   //  Submit Function
   const handleSubmit = () => {
-    axios.post("https://backend-todo-pi.vercel.app/Todos", {
+    axios.post("http://localhost:8080/Todos", {
       title: task,
       status: false,
       checked: false,
