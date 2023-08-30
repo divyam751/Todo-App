@@ -10,10 +10,16 @@
       "title": "Learn CSS",
       "status": false,
       "checked": false,
-      "id": 3
+      "id": 2
     },
     {
       "title": "Learn JavaScript",
+      "status": false,
+      "checked": false,
+      "id": 3
+    },
+    {
+      "title": "Learn React",
       "status": false,
       "checked": false,
       "id": 4
