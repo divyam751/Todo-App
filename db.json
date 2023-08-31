@@ -1,3 +1,22 @@
 {
-  "Todos": []
+  "Todos": [
+    {
+      "title": "Learn CSS",
+      "status": true,
+      "checked": true,
+      "id": 2
+    },
+    {
+      "title": "Learn JavaScript",
+      "status": true,
+      "checked": true,
+      "id": 3
+    },
+    {
+      "title": "Learn React",
+      "status": true,
+      "checked": true,
+      "id": 4
+    }
+  ]
 }
